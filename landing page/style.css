@@ -37,7 +37,7 @@ p {
 }
 #g .button {
     text-decoration: none;
-    color: darkcyan;
+    color: rgb(139, 0, 44);
     border: white 1px solid;
     font-weight: bolder;
     background-color: white;
