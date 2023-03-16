@@ -20,6 +20,10 @@
             background-color: azure;
             color-scheme: red;
         }
+
+    fieldset {
+        background-color: lightgrey;
+    }
         </style>
     </head>
 
@@ -27,18 +31,24 @@
         <div style="text-align: center;">
         <h2> Create account </h2>
         </div>
-        <form>
+        <form action=" ">
+            <fieldset>
             <pre> 
             <label for="power"> NAME </label>
             <input type="text" name="power" id="power">
             <label for="mail"> EMAIL </label>
             <input type="email" name="mail" id="mail">
+            <label for="address">ADDRESS</label> 
+            <input type="address" name="address" id="address">
             <label for="number"> PHONE NUNBER</label>
             <input type="number" name="number" id="number">
+            <label for="gender"> GENDER </label>
+            <input type="gender" name="gender" id="gender">
             <label for="pass"> PASSWORD </label>
             <input type="password" name="pass" id="pass"><br>
-            <button class="block"> SIGN IN </button>
+            <button class="block"> SUBMIT </button>
             </pre>
+            </fieldset>
 
 
         </form>
