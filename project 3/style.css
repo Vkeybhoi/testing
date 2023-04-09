@@ -1,21 +1,81 @@
 
-section {
-    background-image: url("https://images.pexels.com/photos/6913372/pexels-photo-6913372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    height: 50rem;
-    width: 80rem;
-
-    
-    
-    
-    
-}
+*,::after,::before { margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/08/23/26/apple-2831949__480.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: scroll;
     height: 100vh;
+    
 }
-p {
-    color: red;
+.h {
+    background: green;
+    font-family: sans-serif;
+    text-align: center;
 }
+.h ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.h ul li {
+   width: 130px;
+   margin: 8px;
+   padding: 3px;
+}
+.h ul li a {
+    text-decoration: none;
+    color:white;
+    
+}
+.power, .h ul li a:hover {
+    background: rgb(106, 173, 4);
+    border-radius: 5px;
+}
+.h .fa {
+    margin-right: 4px;
+}
+.menu-1 {
+    display: none;
+}
+.h ul li:hover .menu-1{
+
+    display: block;
+    position: absolute;
+    background: rgb(106, 173, 4);
+    margin-top: 10px;
+    margin-left: -15px;
+}
+.h ul li:hover .menu-1 ul{
+    display: block;
+    margin: 8px;
+}
+.h ul li:hover .menu-1 ul li{
+    width: 130px;
+    padding: 8px;
+    border-bottom: 1px dotted black;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.h ul li:hover .menu-1 ul li a:hover{
+    background: green;
+    color: white;
+}
+.fa-angle-right {
+    float: right;
+}
+.menu-2{
+    display: none;
+}
+.zulu:hover .menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -30px;
+    margin-left: 110px;
+    background: green;
+}
+
+
